@@ -4,7 +4,12 @@ import './InputDeTexto.css';
 function InputDeTexto (props) {
     return (
         <div>
-            <p>A caixa de input vai aqui</p>
+            <form>
+            <p>Usuário:</p>
+            <input type="text" id="nome"/>
+            <input type="text" id="texto"/>
+            <input type="submit" value="Enviar"/>
+            </form>
         </div>
     )
 }
