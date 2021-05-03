@@ -3,8 +3,8 @@ import './QuadroDeMenssagens.css';
 
 function QuadroDeMenssagens(props) {
     return (
-        <div>
-            <p>O quadro das menssagens vai aqui</p>
+        <div id="main">
+           
         </div>
     )
 }
