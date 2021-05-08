@@ -1,18 +1,16 @@
 import React from 'react';
 import './App.css';
-import QuadroDeMenssagens from './components/QuadroDeMenssagens/QuadroDeMenssagens.js';
-import InputDeTexto from './components/InputDeTexto/InputDeTexto.js';
+import JanelaDeChat from './componentes/JanelaDeChat/JanelaDeChat';
 
-function App() {
-  return (
-    <div className="App">
 
-      <QuadroDeMenssagens/>
-
-      <InputDeTexto/>
-
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <JanelaDeChat/>
+      </div>
+    );
+  }
 }
 
 export default App;
