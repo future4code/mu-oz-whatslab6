@@ -1,0 +1,50 @@
+#form {
+    display: flex;
+    width: 50vw;
+    margin-left: 25vw;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+  }
+  
+  .fala {
+    font-weight: bold;
+  }
+  
+  #nome {
+    width: 120px;
+  }
+  
+  #texto {
+    width: 220px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  #main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url('https://www.papeiseparede.com.br/3257-thickbox_default/papel-de-parede-whatsapp-branco-e-azul.jpg');
+    padding: 10px;
+    border: 2px solid black;
+    height: 90vh;
+    width: 50vw;
+    margin-left: 25vw;
+  } 
+  
+  .textarea {
+    outline: none;
+    padding: 15px;
+    border: 2px solid #ddd;
+    color: #330;
+    border-radius: 6px;
+    font-size: 1.0rem;
+  }
+  .enviar{
+    height: 50px;
+    width: 45px;
+    cursor: pointer;
+  }
+   
